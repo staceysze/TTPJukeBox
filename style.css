@@ -1,0 +1,28 @@
+body {
+  margin: auto 0;
+  padding-top: 20px;
+  width: 100%;
+  background-image: url("images/beatbox2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.bg_image {
+  width: 100%;
+}
+
+.jumbotron {
+  opacity: 0.8;
+}
+
+.form_div {
+  text-align: center;
+  margin-top: 200px;
+}
+
+#buttons {
+  margin-top: 50px;
+  text-align: center;
+  color: black;
+  z-index: 1;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <title>Jukebox</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>JukeBox</h1>
+    </div>
+
+    <audio id="music">
+      <source src="songs/song1.mp3" type="audio/mp3"/>
+    </audio>
+    <div class="form_div">
+      <form>
+        <input id="upload" type="text" placeholder="Upload Your Song">
+        <input id="submit" type="submit">
+      </form>
+    </div>
+    <div id="buttons">
+      <button type="button" onclick="playSong()"><img src="images/play.png" width="65px" height="65px"/></button>
+      <button type="button" onclick="pauseSong()"><img src="images/pause.png" width="65px" height="65px"/></button>
+      <button type="button" onclick="stopSong()"><img src="images/stop.png" width="65px" height="65px"/></button>
+    </div>
+    <div class="bg_image">
+      <!-- <img src="images/beatbox2.jpg"/> -->
+    </div>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
